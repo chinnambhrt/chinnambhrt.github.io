@@ -1,0 +1,92 @@
+div.skills-container#skills-container {
+    width: 100%;
+    padding: 4%;
+    padding-top: 5%;
+}
+
+div.skills-container>div.container-wrap {
+    /*    */
+}
+
+div.skills-container>.container-wrap>p.header {
+    font-size: 1.4em;
+    font-weight: 600;
+    padding: 15px;
+    padding-left: 7px;
+}
+
+div.skills-container>#skills-container-wrap>#skills-info-wrap {
+/*     border: 1px dashed #aaa; */
+    margin-top: 3%;
+    padding: 1%;
+}
+
+#skills-container-wrap>#skills-info-wrap>.skill-group-wrap {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#skills-container-wrap>#skills-info-wrap>.skill-group-wrap>.skill-group {
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#skills-info-wrap>.skill-group-wrap>.skill-group>a.skill-group-item {
+    padding: 12px;
+    text-align: center;
+    font-size:0.85em;
+    cursor: pointer;
+    color:#333;
+    border-radius:4%;
+}
+
+#skills-info-wrap>.skill-group-wrap>.skill-group>a.skill-group-item.active{
+    border-bottom:2px solid #000;
+}
+
+.skills-info-wrap>div.skill-items-wrap{
+/*     border:1px solid #aaa; */
+    margin-top:3%;
+    width:90%;
+    padding:1%;
+    margin-left:auto;
+    margin-right:auto;
+    position: relative;
+    text-align: center;
+}
+
+.skills-info-wrap>div.skill-items-wrap>div.skill-item{
+    display: inline-block;
+    padding:5px;
+    border-radius:3px;
+    margin:4px;
+    background-color:#ddd;
+    box-sizing: border-box;
+    cursor:pointer;
+    transition:1.9s ease-in-out all;
+}
+
+.skills-info-wrap>div.skill-items-wrap>div.skill-item>div{
+    display: inline-block;
+    padding:5px;
+}
+
+.skills-info-wrap>div.skill-items-wrap>div.skill-item>div.skill-name{
+    padding-left:10px;
+    padding-right:10px;
+    font-size:0.86em;
+    font-weight:200;
+}
+
+.skills-info-wrap>div.skill-items-wrap>div.skill-item>div.skill-rating{
+    color:rgb(12, 89, 141);
+    box-sizing: border-box;
+    transition: 0.6s ease-in-out all;
+}
+
+.skills-info-wrap>div.skill-items-wrap>div.skill-item:hover div.skill-rating{
+    transform: scale(1.23);
+}

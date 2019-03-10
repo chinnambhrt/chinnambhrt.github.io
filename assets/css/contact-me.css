@@ -1,0 +1,92 @@
+div.contact-container#contact-container{
+    width:100%;
+    padding:4%;
+    background-color: rgba(0,0,0,0.85);
+  }
+  
+  #contact-container div.line{
+    background-color: #fff;
+  }
+  
+  #contact-container-wrap>div.header-container>p{
+    color:#fff;
+    font-size:1.5em;
+    padding-bottom:7px;
+  }
+  
+  #contact-container-wrap input{
+    padding:15px;
+    border-radius:3px;
+    border:none;
+    width:100%;
+    margin:5px;
+    background-color: transparent;
+    color:#fff;
+    border:1px solid #999;
+    transition: 0.4s ease-in-out all;
+  }
+  
+  #contact-container-wrap input:focus{
+    box-shadow: 0px 0px 2px #aaa;
+  }
+  
+  
+  #contact-container-wrap button{
+    padding:10px;
+    border-radius:3px;
+    border:none;
+    margin:2px;
+    background-color: transparent;
+    color:#fff;
+    border:1px solid #999;
+    cursor:pointer;
+  }
+  
+  #contact-container-wrap div.contact-ux-wrap{
+    width: 100%;
+    position: relative;
+    padding:5%;
+  }
+  
+  #contact-container-wrap div.contact-ux-wrap>div{
+    display: inline-block;
+    width:40%;
+  }
+  
+  #contact-container-wrap div.contact-form > p.form-header{
+    color:#fff;
+    padding:10px;
+    font-size:1.2em;
+    font-weight:500;
+  }
+  
+  #contact-container-wrap div.contact-ux-wrap>div.contact-form{
+    /*  */
+  }
+  
+  #contact-container-wrap div.contact-ux-wrap>div.social-connect{
+    padding:4%;
+    float: right;
+    color:#fff;
+  }
+  
+  #contact-container-wrap div.contact-ux-wrap>div.social-connect>.social-wrap{
+   
+  }
+  
+  #contact-container-wrap div.contact-ux-wrap>div.social-connect>.social-wrap>div{
+    display: inline-block;
+    padding:2.5%;
+    text-align: center;
+    font-size:4em;
+  }
+  
+  div.social>a{
+    display: block;
+    text-decoration: none;
+    color:#fff;
+  }
+  
+  div.social>a:visited{
+    color:#fff;
+  }

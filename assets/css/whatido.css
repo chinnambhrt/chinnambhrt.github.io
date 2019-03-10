@@ -1,0 +1,55 @@
+#whatido-container {
+  padding: 4%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  box-sizing: border-box;
+  display: block;
+}
+
+#whatido-container>div.container-wrap {
+  /*    */
+}
+
+#whatido-container>div.container-wrap>div.container-header>p.header {
+  /*    */
+  font-size: 1.5em;
+  font-weight: 500;
+  padding: 15px;
+  padding-left: 7px;
+}
+
+#whatido-container>div.container-wrap>div.container-body {
+  display: flex;
+  /*   border:1px dashed #000; */
+  margin-top: 2px;
+  padding: 1%;
+}
+
+#whatido-container>div.container-wrap>div.container-body>div.cap-item {
+  flex: 1;
+  margin: 20px;
+  padding: 10px;
+  /*   border:1px dashed #aaa; */
+  border-radius: 3px;
+  box-shadow: 0px 0px 3px #666;
+}
+
+#whatido-container>div.container-wrap>div.container-body>div.cap-item>p {
+  text-align: center;
+  padding: 5px;
+}
+
+#whatido-container>div.container-wrap>div.container-body>div.cap-item>p.cap-icon {
+  font-size: 2.75em;
+}
+
+#whatido-container>div.container-wrap>div.container-body>div.cap-item>p.cap-header {
+  font-weight: 600;
+}
+
+#whatido-container>div.container-wrap>div.container-body>div.cap-item>p.cap-decription {
+  color: #333;
+  line-height: 1.7em;
+  letter-spacing: 1.09;
+  text-align: center;
+}

@@ -1,0 +1,95 @@
+#works-container {
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  position: relative;
+}
+
+div#works-container>div#works-wrap {
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+#works-container>div#works-wrap>div.container-wrap {
+  padding: 5%;
+  color: #eee;
+}
+
+#works-container div.container-wrap>div.container-header>p.header {
+  /*    */
+  font-size: 1.5em;
+  font-weight: 500;
+  padding: 15px;
+  padding-left: 7px;
+}
+
+#works-container>#works-wrap>.container-wrap>div.line {
+  background-color: #fff;
+}
+
+.container-wrap>.work-info-table {
+  width: 100%;
+  padding-top: 2%;
+  padding-left: 1%;
+  padding-right: 1%;
+  display: block;
+}
+
+.container-wrap>.work-info-table>.work-info-row {
+  display: block;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  /*   border:1px dashed #fff; */
+}
+
+.container-wrap>.work-info-table>.work-info-row>.work-info-column {
+  display: inline-block;
+  padding: 1%;
+  /*   border:1px dashed #fff; */
+}
+
+.work-info-column.work-header {
+  width: 40%;
+  float: left;
+  display: block;
+  text-align: right;
+}
+
+.work-info-column.work-header p {
+  padding-right: 15%;
+}
+
+.work-info-column.work-details {
+  width: 60%;
+}
+
+.work-info-column.work-header>p.work-name {
+  font-weight: 600;
+  font-size: 1.1em;
+  color: rgb(146, 154, 240);
+}
+
+.work-info-column.work-header>p.work-date {
+  font-weight: 600;
+  font-size: 0.9em;
+  color: #999;
+}
+
+div.work-info-column.work-details>p.work-designation {
+  font-weight: 600;
+}
+
+div.work-info-column.work-details>p.work-description {
+  font-weight: 400;
+  color: #bbb;
+  padding-right: 15%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  line-height: 1.55em;
+  text-align: justify;
+}
+
+div.work-info-column.work-details>p.work-location {
+  color: rgb(174, 187, 245);
+  font-weight: 200;
+}

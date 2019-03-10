@@ -1,0 +1,96 @@
+div.about-container#about-container {
+  width: 100%;
+  padding: 4%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  box-sizing: border-box;
+  /*   background-color:rgba(255,255,255,0.85); */
+  background: linear-gradient(rgb(250, 250, 250) 40%, rgb(200, 200, 200)) !important;
+  position: relative;
+  display: block;
+}
+
+p.about-text{
+  font-size:10px
+}
+
+a.place-link {
+  color:#000;
+  text-decoration: none;
+}
+
+a.place-link:visited {
+  color:#000;
+}
+
+p.animate-icon>i{
+  font-size:1.2em;
+  padding-right:10px;
+}
+
+div.about-container#about-container>div.container-wrap {
+  display: block;
+}
+
+div.about-container#about-container>div.container-wrap>div.line{
+  height:2px;
+  background-color: #000;
+}
+
+div.about-container#about-container>div.container-wrap>div.container-header {
+  width: 100%;
+}
+
+div.about-container#about-container>div.container-wrap>div.container-header>p.header {
+  width: 100%;
+  font-size: 1.5em;
+  font-weight: 500;
+  padding: 15px;
+  padding-left: 7px;
+}
+
+div.about-wrap {
+  padding: 3%;
+  /*   border:1px solid #444; */
+}
+
+div.about-wrap>div.about-item {
+  display: inline-block;
+  margin-left: auto;
+  margin-left: auto;
+  margin-left: 2px;
+  margin-right: 2px;
+  box-sizing: border-box;
+}
+
+div.about-wrap>.about-item-picture {
+  width: 20%;
+  float:left;
+  /*   border: 1px dashed #666; */
+}
+
+div.about-wrap>.about-item-text {
+  width: 79%;
+/*   float: right; */
+  padding-right: 10%;
+  padding-left: 5%;
+  position: relative;
+}
+
+.about-picture#about-picture {
+  display: block;
+  width: 250px;
+  height: 250px;
+}
+
+div.about-wrap>.about-item-text>p.about-text {
+  font-size: 1em;
+  text-align: justify;
+  line-height: 1.6em;
+  font-weight: 500;
+  padding: 6px;
+}
+
+div.about-wrap>.about-item-text>p.about-text.animate-icon>a{
+  font-weight:600;
+}
